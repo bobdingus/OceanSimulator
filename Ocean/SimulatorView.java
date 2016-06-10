@@ -162,7 +162,7 @@ public class SimulatorView extends JFrame
     	 * grid is always half the size of the users monitor regardless of size of field
     	 */
     	
-        private final int GRID_VIEW_SCALING_FACTOR =(Display.MONITOR_HEIGHT/ModelConstants.getConstants().fieldDepth/2);
+        private final int GRID_VIEW_SCALING_FACTOR =(Display.MONITOR_HEIGHT/ModelConstants.getConstants().fieldDepth)-1;
         
         private int gridWidth, gridHeight;
         private int xScale, yScale;
