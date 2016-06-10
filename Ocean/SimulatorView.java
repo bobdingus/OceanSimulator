@@ -159,7 +159,7 @@ public class SimulatorView extends JFrame
     private class FieldView extends JPanel
     {
     	/*Altered the scaling factor to make use of the native display to ensure
-    	 * grid is always half the size of the users monitor regardless of size of field
+    	 * grid is always most of the the size of the users monitor regardless of size of field
     	 */
     	
         private final int GRID_VIEW_SCALING_FACTOR =(Display.MONITOR_HEIGHT/ModelConstants.getConstants().fieldDepth)-1;
